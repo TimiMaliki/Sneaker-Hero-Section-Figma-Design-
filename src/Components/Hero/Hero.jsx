@@ -4,7 +4,7 @@ import Grid from '../SubComponents/Grid'
 
 const Hero = () => {
   return (
-    <div>
+    <div  className='bg-[#F9F9F9)]'>
           <NavBar/>
           <Grid/>
     </div>

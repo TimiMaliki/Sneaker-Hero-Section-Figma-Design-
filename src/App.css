@@ -66,6 +66,15 @@ nav .menu span {
   letter-spacing: -2.24px;
   text-transform: uppercase;
 }
+.Image-layout-text{
+  font-family: Sofia Pro;
+font-size: 150px;
+font-style: normal;
+font-weight: 700;
+line-height: 119.6px; /* 79.733% */
+letter-spacing: -8.25px;
+text-transform: uppercase;
+}
 
 @media (max-width: 800px) {
   nav .menu {

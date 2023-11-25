@@ -1,12 +1,14 @@
-import React from 'react'
-import BannerText from './BannerText'
+import React from "react";
+import BannerText from "./BannerText";
+import Image from "./Image";
 
 const Grid = () => {
   return (
-    <div className='flex justify-between p-72 border border-black w-full h-full'>
-<BannerText/>
+    <div className="flex justify-between p-72 w-full h-full">
+      <BannerText />
+      <Image />
     </div>
-  )
-}
+  );
+};
 
-export default Grid
+export default Grid;
