@@ -1,10 +1,14 @@
 import React, { useState } from "react";
+import Search from "../../../public/search.png"
+import User from "../../../public/login.png"
+import Heart from "../../../public/wishlish.png"
+import Cart from "../../../public/cart.png"
 
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className="w-full bg-white justify-between text-center items-center p-8 sticky">
-      <h1 className="text-xl text-black">Emmanuel</h1>
+      <h1 className="text-4xl font-bolder text-black">Maliki.</h1>
 
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -13,22 +17,41 @@ const NavBar = () => {
       </div>
 
       <ul className={menuOpen ? "open" : ""}>
-        <li className="font-sans text-base ">
+        <li className="font-sans text-base cursor-pointer">
           <a>Home</a>
         </li>
-        <li className="font-sans text-base">
-          <a>Portfolio</a>
+        <li className="font-sans text-base cursor-pointer">
+          <a>Shop</a>
         </li>
-        <li className="font-sans text-base">
-          <a>About Us</a>
+        <li className="font-sans text-base cursor-pointer">
+          <a>Product</a>
         </li>
-        <li className="font-sans text-base">
-          <a>Testimonial</a>
-        </li>
-        <li className="font-sans text-base">
-          <a>Contact</a>
+        <li className="font-sans text-base cursor-pointer">
+          <a>Blog</a>
         </li>
       </ul>
+
+
+      <ul>
+        <li className="cursor-pointer">
+         <img src={Search} alt="" />
+        </li>
+
+        <li className="cursor-pointer">
+         <img src={User} alt=""/>
+        </li>
+
+        <li className="cursor-pointer">
+         <img src={Heart} alt=""/>
+        </li>
+
+
+        <li className="cursor-pointer">
+         <img src={Cart} alt=""/>
+        </li>
+      </ul>
+
+
     </nav>
   );
 };
