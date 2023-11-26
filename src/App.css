@@ -82,7 +82,9 @@ nav .menu span {
   transform: rotate(-17.395deg);
   flex-shrink: 0;
 }
-
+.my-atropos {
+  background: #F9F9F9;
+}
 @media (max-width: 800px) {
   nav .menu {
     display: flex;
