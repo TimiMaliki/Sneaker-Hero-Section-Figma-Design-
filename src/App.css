@@ -68,7 +68,7 @@ nav .menu span {
 }
 .Image-layout-text {
   font-family: Sofia Pro;
-  font-size: 120px;
+  /* font-size: 100px; */
   font-style: normal;
   font-weight: 700;
   line-height: 119.6px; /* 79.733% */

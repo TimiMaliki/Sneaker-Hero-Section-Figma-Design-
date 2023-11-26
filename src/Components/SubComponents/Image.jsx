@@ -3,8 +3,8 @@ import Nike from "../../../public/Nike.png";
 
 const Image = () => {
   return (
-    <div className="lg:-ml-0 -ml-44  lg:-mt-64  mt-44 relative">
-      <h4 className="Image-layout-text">NYKEN AIR</h4>
+    <div className="lg:-ml-0 -ml-48  lg:-mt-64  mt-44 relative">
+      <h4 className="Image-layout-text lg:text-9xl text-6xl">NYKEN AIR</h4>
       <div className="absolute lg:top-20 top-[75%]">
         <img
           src={Nike}

@@ -7,7 +7,7 @@ import Cart from "../../../public/cart.png"
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav className="w-full bg-white relative justify-between text-center items-center p-8 sticky">
+    <nav className="w-full bg-purple-300 relative justify-between text-center items-center p-8 sticky">
       <h1 className="text-4xl font-bolder text-black">Maliki.</h1>
 
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
